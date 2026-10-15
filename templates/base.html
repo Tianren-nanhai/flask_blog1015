@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}我的部落格{% endblock %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        nav {
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2563eb;
+        }
+
+        .post {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .content {
+            white-space: pre-wrap;
+        }
+
+        input, textarea {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
